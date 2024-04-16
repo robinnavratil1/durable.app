@@ -1,0 +1,392 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-content {
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 50px 40px;
+    box-shadow: 0 0 10px;
+
+}
+
+.info {
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+
+.first-section {
+    text-align: center;
+
+}
+
+
+.main-content .text-area {
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.main-content .person {
+    font-size: 1.6rem;
+    color: black;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.button-area button {
+
+    background-color: #262626;
+    color:white;
+    font-size: 1.3rem;
+    padding: 10px 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+
+}
+
+.button-area button:active {
+    background-color: lightblue;
+}
+.task {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 3px;
+
+    padding: 5px;
+    margin-bottom: 5px;
+
+
+    display: flex;
+    justify-content: space-between;
+}
+.task li {
+    list-style: none;
+    flex: 4;
+    padding: 5px;
+    font-size: 1.3rem;
+    margin: 10px;
+}
+
+.task button {
+    flex: 1;
+    border-radius: 10px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.task .checkTask {
+    color: orange;
+    margin-right: 5px;
+    border: solid 2px orange;
+    font-size: 1.5rem;
+}
+
+.task .checkTask:hover {
+    background-color: orange;
+    color: #fff;
+}
+
+.task .deleteTask {
+    color: red;
+    border: solid 2px red;
+    font-size: 1.3rem;
+}
+
+
+.task .deleteTask:hover {
+    background-color: red;
+    color: #fff;
+}
+
+
+header {
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.logo {
+    font-size: 50px;
+    margin-left: 100px;
+    font-weight: bold;
+}
+
+.book-now {
+    background-color: #2C9FF2;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-right: 100px;
+    font-size: 50px;
+
+
+}
+
+.main-section {
+    background-image: url("images/mercedes2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+    width: 100%;
+    height: 700px;
+    opacity: 0.9;
+
+}
+
+.main-section h1 {
+    font-size: 90px;
+    color: white;
+    font-weight: bold;
+
+}
+
+.main-section h2 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: white;
+
+
+}
+
+.main-section button {
+    border-radius: 10px;
+}
+
+
+.secondary-section {
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
+
+.secondary-section .content {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.secondary-section h2 {
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+    margin-left: 200px;
+}
+
+.secondary-section p {
+    font-size: 40px;
+    color: white;
+    margin-left: 200px;
+}
+
+.secondary-section .image-container img {
+    max-width: 100%;
+    border-radius: 10%;
+}
+
+
+.third-section {
+    background-color: #2C9FF2;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+    height: 500px;
+}
+
+.third-section .testimonial {
+    max-width: 1000px;
+    margin-left: 200px;
+    font-size: 40px;
+    text-align: justify;
+
+}
+
+.third-section img {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+
+.fourth-section {
+    background-color: black;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth-section .content {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.fourth-section h2 {
+    font-size: 70px;
+    color: white;
+    font-weight: bold;
+    margin-left: 200px;
+}
+
+.fourth-section p {
+    font-size: 40px;
+    color: white;
+    margin-left: 200px;
+}
+
+.fourth-section .image-container img {
+    max-width: 100%;
+    border-radius: 10%;
+}
+
+
+.fifth-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.fifth-section {
+    background-color: #2C9FF2;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.fifth-section .image-container {
+    flex: 0 0 calc(33.33% - 40px);
+    margin: 20px;
+}
+
+.fifth-section .image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 50px;
+}
+
+.google-map {
+    height: 500px;
+    position: relative;
+}
+.location{
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    width: 80%;
+    padding-top: 100px;
+    align-items: flex-end;
+    margin: 0 auto;
+}
+.location-frame{
+    background-color: #464545;
+    border-radius: 20px;
+    color: #FFFAFA;
+    padding: 10px 40px
+}
+.google-map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.seventh-section .text-container {
+    color: white;
+}
+
+
+
+.seventh-section {
+    background-color: #2C9FF2;
+    padding: 50px 0;
+}
+.seventh-section .contact-info {
+    text-align:  center;
+}
+
+.seventh-section .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    justify-content: center;
+}
+.seventh-section h2 {
+    font-size: 24px;
+    margin-right: 100px;
+}
+.seventh-section p {
+    font-size: 16px;
+}
+.seventh-section .form-group {
+    margin-bottom: 20px;
+}
+.seventh-section .form-group label {
+    display: block;
+}
+.seventh-section input[type="text"],
+.seventh-section input[type="email"],
+.seventh-section textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+.seventh-section button[type="submit"] {
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.seventh-section button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+
+.eighth-section {
+    background-color: #242A2E;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+}
+
+.eighth-section h2 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+.eighth-section p {
+    font-size: 30px;
+    margin-right: 100px;
+}
+
+.right-content a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+
+
+
